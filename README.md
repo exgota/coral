@@ -2,6 +2,8 @@
 
 An animated pixel-art reef for T3 Code. A turtle crosses shafts of light, sardines pass over swaying kelp, a crab patrols the sand, and the whole app is cut from the same cave rock: sidebar, top bar, panels, menus and dialogs.
 
+![The reef in motion on the start screen](motion.gif)
+
 ![Coral Reef on the start screen](preview.png)
 
 ![Coral Reef in a conversation](conversation.png)
