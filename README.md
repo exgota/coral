@@ -20,8 +20,8 @@ Dark mode only.
 ## What it does
 
 - The reef is drawn behind your conversation and scales in whole pixels, so the art stays crisp from a laptop to an ultrawide display.
-- A shade under the text column keeps body text readable over the art at every window size.
-- The top bar continues the cave roof. The thread details card hangs from it like a ledge.
+- A shade under the text column keeps body text readable over the art.
+- The top bar continues the cave roof. The thread details card, when it is docked, hangs from it like a ledge.
 - With "reduce motion" switched on in your system settings, the animals are left out and you get a still reef.
 - There is one rare visitor. Leave a thread open for a few minutes.
 
@@ -31,11 +31,11 @@ The whole theme is one JSON file with no external loads. The still artwork is an
 
 ## Performance
 
-Measured in Chrome against T3 Code with no theme, at a 1920 by 1080 window on a high-density display:
+Measured on one Mac in headless Chrome against T3 Code with no theme, at a 1920 by 1080 window on a high-density display. Treat the numbers as a guide:
 
-- Opening menus and typing cost the same as with no theme.
+- Opening menus and typing take about as long as with no theme.
 - Switching threads takes about 8% longer.
-- The motion runs at 60 frames a second and uses about 8% of one processor core while a conversation is on screen. With "reduce motion" on, it uses none.
+- The motion runs at 60 frames a second and uses about 8% of one processor core while a conversation is on screen. With "reduce motion" on, the motion is not drawn at all.
 - Resizing the window, or showing and hiding the sidebar or the side panel, redraws the reef. Expect a hitch of about a fifth of a second each time.
 
 ## Known limits
