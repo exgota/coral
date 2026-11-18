@@ -1,18 +1,18 @@
-# Coral Reef
+# Coral
 
 An animated pixel-art reef for T3 Code. A turtle crosses shafts of light, sardines pass over swaying kelp, a crab patrols the sand, and the whole app is cut from the same cave rock: sidebar, top bar, panels, menus and dialogs.
 
 ![The reef in motion on the start screen](motion.gif)
 
-![Coral Reef on the start screen](preview.png)
+![Coral on the start screen](preview.png)
 
-![Coral Reef in a conversation](conversation.png)
+![Coral in a conversation](conversation.png)
 
 ## Install
 
-Download [`coral-reef.json`](coral-reef.json), then either:
+Download [`coral.json`](coral.json), then either:
 
-- run `t3 theme set coral-reef.json`, or
+- run `t3 theme set coral.json`, or
 - add it from Settings, Appearance, Add a theme.
 
 Dark mode only.
